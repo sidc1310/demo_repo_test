@@ -38,13 +38,15 @@ Make sure you have disabled strict mode in Mysql .
 
 ## How to disable Mysql strict mode?
 
-Make the following changes in the "my.ini/my.cnf":
+Make the following changes in the `my.ini/my.cnf`:
+Find it here `C:\WAMP\BIN\MYSQL\MySQL Server 5.6\my.ini` OR `C:\xampp\mysql\bin\my.ini`
 
     1.  Look for the following line:
-        sql-mode = "STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+        `sql-mode` = STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+        or sometimes it maybe  `sql_mode`
 
     2.  Change it to:
-        sql-mode="" (Blank)
+        `sql-mode`="" (Blank)
 
     3. Restart the MySQL service.
     
