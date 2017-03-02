@@ -13,11 +13,9 @@ Code contributions are very welcome! Browse the [Issue tracker](https://github.c
 Firstly make sure that you have WAMP/XAMPP server installed and the time zone is set correctly.
 Make the following changes in php.ini file. You can find the php.ini file by looking at the following destination :
 * In case of WAMP :
-`C:/WAMP/BIN/PHP/php.ini` OR (left click ) wampmanager icon -> PHP -> php.ini.
+`C:/WAMP/BIN/PHP/php.ini` OR (left click )  wampmanager icon -> PHP -> php.ini
 * In  case of XAMPP:
 `C:/WAMP/BIN/PHP/php.ini`.
-
-
 
 
 Make the following changes in your php.ini file :
@@ -40,7 +38,7 @@ Make sure you have disabled strict mode in Mysql .
 
 Make the following changes in the `my.ini/my.cnf`:
 Find it here `C:\WAMP\BIN\MYSQL\MySQL Server 5.6\my.ini` OR `C:\xampp\mysql\bin\my.ini` 
-OR (left click ) wampmanager icon -> PHP -> php.ini
+OR (left click ) wampmanager icon -> MYSQL -> my.ini
 
     1.  Look for the following line:
         sql-mode = STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
@@ -52,7 +50,7 @@ OR (left click ) wampmanager icon -> PHP -> php.ini
     3. Restart the MySQL service.
     
 
-Restart Apache Server.
+Restart WAMPP/XAMPP Server.
 
 You can fork & clone the repository for local development. To get started you need to:
  - Clone the repository
