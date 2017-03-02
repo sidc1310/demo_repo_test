@@ -10,8 +10,9 @@ Code contributions are very welcome! Browse the [Issue tracker](https://github.c
 
 ## Windows :: 
 
-Firstly make sure that you have WAMP/XAMPP server installed and the time zone is set correctly.
-Make the following changes in php.ini file. You can find the php.ini file by looking at the following destination :
+Firstly make sure that you have [WAMP](https://sourceforge.net/projects/wampserver/) or [XAMPP](https://www.apachefriends.org/index.html) server installed and the time zone is set correctly.
+
+Make the following changes in `php.ini` file. You can find the `php.ini` file by looking at the following destination :
 * In case of WAMP :
 `C:/WAMP/BIN/PHP/php.ini` OR (left click )  wampmanager icon -> PHP -> php.ini
 * In  case of XAMPP:
